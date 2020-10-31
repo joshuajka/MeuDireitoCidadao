@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/MeuDireitoCidadao/static/js/main.eed22373.chunk.js",
+    "main.js.map": "/MeuDireitoCidadao/static/js/main.eed22373.chunk.js.map",
+    "runtime-main.js": "/MeuDireitoCidadao/static/js/runtime-main.716f79d8.js",
+    "runtime-main.js.map": "/MeuDireitoCidadao/static/js/runtime-main.716f79d8.js.map",
+    "static/js/2.2a3c60be.chunk.js": "/MeuDireitoCidadao/static/js/2.2a3c60be.chunk.js",
+    "static/js/2.2a3c60be.chunk.js.map": "/MeuDireitoCidadao/static/js/2.2a3c60be.chunk.js.map",
+    "index.html": "/MeuDireitoCidadao/index.html",
+    "static/js/2.2a3c60be.chunk.js.LICENSE.txt": "/MeuDireitoCidadao/static/js/2.2a3c60be.chunk.js.LICENSE.txt",
+    "static/media/persona.f8a71005.png": "/MeuDireitoCidadao/static/media/persona.f8a71005.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.716f79d8.js",
+    "static/js/2.2a3c60be.chunk.js",
+    "static/js/main.eed22373.chunk.js"
+  ]
+}
