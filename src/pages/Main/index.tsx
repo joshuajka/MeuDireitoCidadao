@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import Persona from "../../assets/images/persona.png";
 
 import { Container, MainSection } from "./styles";
@@ -8,7 +9,6 @@ import { Container, MainSection } from "./styles";
 function Main() {
   return (
     <Container>
-       
       <Header />
 
       <MainSection>
@@ -17,7 +17,6 @@ function Main() {
         </div>
 
         <div className="info-container">
-           
           <h1>
             Dúvidas sobre <br /> seus Direitos?
           </h1>
@@ -37,6 +36,8 @@ function Main() {
           </div>
         </div>
       </MainSection>
+      
+      <Footer />
     </Container>
   );
 }
