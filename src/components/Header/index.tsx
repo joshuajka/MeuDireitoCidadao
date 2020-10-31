@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { StyledHeader } from "./styles";
 
@@ -10,21 +11,21 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="https://google.com">Home</a>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a href="https://google.com">Advogado</a>
+            <Link to="/">Advogado</Link>
           </li>
 
           <li>
-            <a href="https://google.com">Quem Somos</a>
+            <Link to="/">Sobre</Link>
           </li>
 
           <li>
-            <a className="button" href="https://google.com">
+            <Link className="button" to="/">
               Entrar
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

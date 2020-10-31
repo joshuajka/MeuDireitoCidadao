@@ -5,7 +5,8 @@ export const StyledHeader = styled.header`
   padding: 1.2rem;
 
   h1 {
-    font-size: 1.87rem;
+    font-size: 1.5rem;
+    color: #233348;
   }
 
   ul {
@@ -14,7 +15,7 @@ export const StyledHeader = styled.header`
     a {
       text-decoration: none;
       color: white;
-      color: rgba(0, 0, 0, 0.4);
+      color: #1f1534;
       font-weight: bold;
       transition: 0.2s;
     }

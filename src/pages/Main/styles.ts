@@ -10,7 +10,7 @@ export const Container = styled.div`
   flex-direction: column;
 `;
 
-export const MainSection = styled.div`
+export const MainSection = styled.main`
   /* Estilos comuns a todos os elementos */
   flex: 1;
 
@@ -35,14 +35,16 @@ export const MainSection = styled.div`
     }
 
     h1 {
-      font-size: 1.87rem;
+      font-size: 3.25rem;
       line-height: 2.18rem;
+      color: #000;
+      line-height: 3.5rem;
     }
 
     p {
-      max-width: 375px;
-      font-size: 1.2rem;
-      color: rgba(0, 0, 0, 0.4);
+      font-size: 1.31rem;
+      color: #7D7987;
+      line-height: 2rem;
     }
 
     div {

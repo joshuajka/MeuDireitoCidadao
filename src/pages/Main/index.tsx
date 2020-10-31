@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -23,16 +24,16 @@ function Main() {
 
           <p>
             Tire todas suas dúvidas e contrate um especialista para resolver o
-            seu problema jurídico, <strong>tudo em um lugar só.</strong>
+            seu problema jurídico, <strong>tudo em um só lugar.</strong>
           </p>
 
           <div>
-            <a className="button button-black" href="https://facebook.com">
+            <Link className="button button-black" to="/">
               Tirar dúvidas
-            </a>
-            <a className="button button-outline" href="https://facebook.com">
+            </Link>
+            <Link className="button button-outline" to="/">
               Contratar Especialista
-            </a>
+            </Link>
           </div>
         </div>
       </MainSection>
