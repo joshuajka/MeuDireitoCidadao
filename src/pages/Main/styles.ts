@@ -53,7 +53,7 @@ export const MainSection = styled.main`
       padding: 0.6rem;
       text-decoration: none;
       font-weight: bold;
-      flex: 1;
+      /* flex: 1; */
     }
 
     .button-black {

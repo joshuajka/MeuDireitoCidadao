@@ -25,17 +25,17 @@ function Main() {
           </h1>
 
           <p>
-            Tire todas suas dúvidas e contrate um especialista para resolver o
-            seu problema jurídico, <strong>tudo em um só lugar.</strong>
+            Clique no botão abaixo para conhecer tudo que o Código
+            do direito do consumidor <strong>garante à você.</strong>
           </p>
 
           <div>
             <Link className="button button-black" to="/">
-              Tirar dúvidas
+              Meus Direitos
             </Link>
-            <Link className="button button-outline" to="/">
+            {/* <Link className="button button-outline" to="/">
               Contratar Especialista
-            </Link>
+            </Link> */}
           </div>
         </div>
       </MainSection>

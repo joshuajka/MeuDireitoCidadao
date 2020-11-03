@@ -26,16 +26,16 @@ export default function Header() {
           </li>
 
           <li>
-            <Link to="/">Advogado</Link>
+            <Link to="/">Quem somos</Link>
           </li>
 
           <li>
-            <Link to="/sobre">Sobre</Link>
+            <Link to="/sobre">Sobre o projeto</Link>
           </li>
 
           <li>
             <Link className="button" to="/">
-              Entrar
+              Entrar em contato
             </Link>
           </li>
         </ul>
