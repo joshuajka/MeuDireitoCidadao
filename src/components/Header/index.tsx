@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FiMenu, FiX } from "react-icons/fi";
 
 import { StyledHeader } from "./styles";
 
 export default function Header() {
+  const [displayNavbar, setDisplayNavbar] = useState(false);
+
+  function handleDisplayNavbar() {
+    setDisplayNavbar(!displayNavbar);
+  }
+
   return (
-    <StyledHeader>
+    <StyledHeader shownavbar={displayNavbar}>
       <h1>Meu Direito Cidadão</h1>
+
+      <button onClick={() => handleDisplayNavbar()}>
+        {displayNavbar ? <FiX /> : <FiMenu />}
+      </button>
 
       <nav>
         <ul>
@@ -19,7 +30,7 @@ export default function Header() {
           </li>
 
           <li>
-            <Link to="/">Sobre</Link>
+            <Link to="/sobre">Sobre</Link>
           </li>
 
           <li>

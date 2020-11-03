@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
-  margin: 0 auto;
-
-  max-width: 90%;
-  height: 100%;
-
-  display: flex;
-  flex-direction: column;
-`;
-
 export const MainSection = styled.main`
   /* Estilos comuns a todos os elementos */
   flex: 1;
@@ -43,7 +33,7 @@ export const MainSection = styled.main`
 
     p {
       font-size: 1.31rem;
-      color: #7D7987;
+      color: #7d7987;
       line-height: 2rem;
     }
 
@@ -56,10 +46,14 @@ export const MainSection = styled.main`
     }
 
     .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border-radius: 10px;
+      padding: 0.6rem;
       text-decoration: none;
       font-weight: bold;
-      padding: 0.6rem;
+      flex: 1;
     }
 
     .button-black {
@@ -82,13 +76,18 @@ export const MainSection = styled.main`
   /* Estilos para dispositivos de até 767px de width (sm do Bootstrap) */
   @media (max-width: 767px) {
     display: flex;
+    flex-direction: column;
 
     .persona-container {
-      display: none;
+      justify-content: center;
+
+      img {
+        width: 200px;
+      }
     }
 
     .info-container {
-      justify-content: start;
+      justify-content: start;      
     }
   }
 
@@ -98,7 +97,7 @@ export const MainSection = styled.main`
     grid-template-columns: repeat(2, 1fr);
 
     .info-container {
-      justify-content: center;
+      justify-content: center;      
 
       .button-black:hover {
         color: black;

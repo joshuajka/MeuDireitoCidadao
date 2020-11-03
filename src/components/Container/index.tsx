@@ -1,0 +1,13 @@
+import React from 'react'
+
+import { Container as StyledContainer } from './styles';
+
+const Container: React.FC  = ({children}) => {
+   return (
+      <StyledContainer> 
+         {children}
+      </StyledContainer>
+   )
+}
+
+export default Container;

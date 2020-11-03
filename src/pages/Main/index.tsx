@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Container from "../../components/Container";
+
 import Persona from "../../assets/images/persona.png";
 
-import { Container, MainSection } from "./styles";
+import { MainSection } from "./styles";
 
 function Main() {
   return (
@@ -37,7 +39,7 @@ function Main() {
           </div>
         </div>
       </MainSection>
-      
+
       <Footer />
     </Container>
   );
