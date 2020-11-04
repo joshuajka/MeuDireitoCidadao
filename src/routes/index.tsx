@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Main from "../pages/Main";
-import Sobre from "../pages/Sobre";
-
+import Sobre from "../pages/SobreProjeto";
 
 export default function Routes() {
   return (

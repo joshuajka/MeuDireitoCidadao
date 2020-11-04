@@ -30,7 +30,7 @@ export default function Header() {
           </li>
 
           <li>
-            <Link to="/sobre">Sobre o projeto</Link>
+            <Link to="Sobre">Sobre o projeto</Link>
           </li>
 
           <li>

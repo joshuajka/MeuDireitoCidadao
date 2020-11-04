@@ -33,9 +33,9 @@ function Main() {
             <Link className="button button-black" to="/">
               Meus Direitos
             </Link>
-            {/* <Link className="button button-outline" to="/">
-              Contratar Especialista
-            </Link> */}
+            <Link className="button button-outline" to="/">
+              Meus direitos em tempos de Pandemia
+            </Link>
           </div>
         </div>
       </MainSection>
